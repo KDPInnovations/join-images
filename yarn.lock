@@ -666,10 +666,10 @@
   "resolved" "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.11.tgz"
   "version" "7.0.11"
 
-"@types/node@*", "@types/node@^15.6.1":
-  "integrity" "sha512-qjd88DrCxupx/kJD5yQgZdcYKZKSIGBVDIBE1/LTGcNm3d2Np/jxojkdePDdfnBHJc5W7vSMpbJ1aB7p/Py69A=="
-  "resolved" "https://registry.npmjs.org/@types/node/-/node-15.14.9.tgz"
-  "version" "15.14.9"
+"@types/node@*", "@types/node@^16":
+  "integrity" "sha512-8egDX8dE50XyXWH6C6PRCNkTP106DuUrvdrednFouDSmCi7IOvrqr0frznfZaHifHH/3aq/7a7v9N4wdXMqhBQ=="
+  "resolved" "https://registry.npmjs.org/@types/node/-/node-16.18.36.tgz"
+  "version" "16.18.36"
 
 "@types/pixelmatch@*":
   "integrity" "sha512-HDaSHIAv9kwpMN7zlmwfTv6gax0PiporJOipcrGsVNF3Ba+kryOZc0Pio5pn6NhisgWr7TaajlPEKTbTAypIBQ=="
@@ -2682,10 +2682,10 @@
   dependencies:
     "semver" "^7.3.5"
 
-"node-addon-api@^5.0.0":
-  "integrity" "sha512-eh0GgfEkpnoWDq+VY8OyvYhFEzBk6jIYbRKdIlyTiAXIVJ8PyBaKb0rp7oDtoddbdoHWhq8wwr+XZ81F1rpNdA=="
-  "resolved" "https://registry.npmjs.org/node-addon-api/-/node-addon-api-5.1.0.tgz"
-  "version" "5.1.0"
+"node-addon-api@^6.1.0":
+  "integrity" "sha512-+eawOlIgy680F0kBzPUNFhMZGtJ1YmqM6l4+Crf4IkImjYrO/mqPwRMh352g23uIaQKFItcQ64I7KMaJxHgAVA=="
+  "resolved" "https://registry.npmjs.org/node-addon-api/-/node-addon-api-6.1.0.tgz"
+  "version" "6.1.0"
 
 "node-int64@^0.4.0":
   "integrity" "sha1-h6kGXNs1XTGC2PlM4RGIuCXGijs= sha512-O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw=="
@@ -3075,23 +3075,23 @@
   "resolved" "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
   "version" "6.3.0"
 
-"semver@^7.2.1", "semver@^7.3.2", "semver@^7.3.5", "semver@^7.3.8", "semver@7.x":
-  "integrity" "sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A=="
-  "resolved" "https://registry.npmjs.org/semver/-/semver-7.3.8.tgz"
-  "version" "7.3.8"
+"semver@^7.2.1", "semver@^7.3.2", "semver@^7.3.5", "semver@^7.5.0", "semver@7.x":
+  "integrity" "sha512-QBlUtyVk/5EeHbi7X0fw6liDZc7BBmEaSYn01fMU1OUYbf6GPsbTtd8WmnqbI20SeycoHSeiybkE/q1Q+qlThQ=="
+  "resolved" "https://registry.npmjs.org/semver/-/semver-7.5.3.tgz"
+  "version" "7.5.3"
   dependencies:
     "lru-cache" "^6.0.0"
 
-"sharp@^0.31.1":
-  "integrity" "sha512-XcR4+FCLBFKw1bdB+GEhnUNXNXvnt0tDo4WsBsraKymuo/IAuPuCBVAL2wIkUw2r/dwFW5Q5+g66Kwl2dgDFVg=="
-  "resolved" "https://registry.npmjs.org/sharp/-/sharp-0.31.3.tgz"
-  "version" "0.31.3"
+"sharp@^0.32.1":
+  "integrity" "sha512-kQTFtj7ldpUqSe8kDxoGLZc1rnMFU0AO2pqbX6pLy3b7Oj8ivJIdoKNwxHVQG2HN6XpHPJqCSM2nsma2gOXvOg=="
+  "resolved" "https://registry.npmjs.org/sharp/-/sharp-0.32.1.tgz"
+  "version" "0.32.1"
   dependencies:
     "color" "^4.2.3"
     "detect-libc" "^2.0.1"
-    "node-addon-api" "^5.0.0"
+    "node-addon-api" "^6.1.0"
     "prebuild-install" "^7.1.1"
-    "semver" "^7.3.8"
+    "semver" "^7.5.0"
     "simple-get" "^4.0.1"
     "tar-fs" "^2.1.1"
     "tunnel-agent" "^0.6.0"
